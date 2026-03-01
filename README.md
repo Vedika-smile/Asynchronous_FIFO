@@ -1,7 +1,10 @@
 # Asynchronous FIFO (Dual Clock FIFO)
 ## Overview
 
-This project implements a parameterized Asynchronous FIFO in Verilog. The design allows safe data transfer between two different clock domains using Gray-coded pointers and two-stage synchronizers to prevent metastability issues.
+This project implements a parameterized Asynchronous FIFO in Verilog.
+
+The design allows safe data transfer between two different clock domains using Gray-coded pointers and two-stage synchronizers to prevent metastability issues.
+
 The FIFO supports independent write and read clocks and generates full and empty status flags.
 
 ## Design Description
